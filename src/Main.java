@@ -9,7 +9,8 @@ public class Main {
         System.out.println(book2.getBookName() + " " + book2.getAuthor().getFirstName() + " " + book2.getAuthor().getSecondName()+ " " + book2.getPublishingYear());
         book1.setPublishingYear(2021);
         System.out.println("book1.age = " + book1.getPublishingYear());
-
-
+        System.out.println(book1);
+        System.out.println(book1.equals(book2));
+        System.out.println(book1.hashCode() == book2.hashCode());
     }
 }
